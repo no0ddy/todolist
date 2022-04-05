@@ -1,38 +1,101 @@
-.App {
+#body {
+  height: 100%;
+  width: auto;
+  margin: 0;
+}
+.change {
+  background-color: #0f172a;
+}
+.mode {
+  float: right;
+  margin-top: 4vw;
+  margin-right: 4vw;
+  height: 3vw;
+  border-radius: 1vw;
+  outline: none;
+  background-color: #16a34a;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main {
+  /* background-color: aquamarine; */
+  box-shadow: 33px 21px 20px 3px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 33px 21px 20px 3px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 33px 21px 20px 3px rgba(0, 0, 0, 0.65);
+  height: 100%;
+  width: 60%;
   text-align: center;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 20%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.note {
+  margin-top: 2vw;
+  height: 5vw;
+  width: 15vw;
+  background-color: #cffafe;
+  font-size: 1.5vw;
+  border: 1px solid #115e59;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidearea {
+  color: #115e59;
+  font-size: 3vw;
+  background-color: #f0fdfa;
+  font-family: "Josefin Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.content {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3vw;
+  background-color: #115e59;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 10px;
+  color: aliceblue;
+}
+textarea {
+  resize: none;
+  outline: none;
+  border-radius: 1vw;
+}
+.add {
+  height: 4vw;
+  width: 8vw;
+}
+.span {
+  margin-top: 40px;
+}
+.img {
+  margin-top: 6vw;
+  height: 25vw;
+  width: 19vw;
+  margin-left: 1vw;
+}
+.segment {
+  box-shadow: 60px -34px 17px -8px rgba(0, 0, 0, 0.83);
+
+  color: black;
+  font-size: 10px;
+}
+.segment button {
+  float: right;
+  color: #115e59;
+  background-color: #f0fdfa;
+}
+.del {
+  float: right;
+}
+.list {
+  margin-top: 10vw;
+}
+.sidemode {
+  background-color: #475569;
+  color: aliceblue;
+}
+.contentmode {
+  background-color: #1e293b;
 }
